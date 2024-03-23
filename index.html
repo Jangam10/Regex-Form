@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Travel Wtih Joy</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">TravelWithJoy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div id="alertbox">
+     
+      </div>
+    
+
+
+  <div class="container my-3">
+    <h3 style="text-align: center;">TravelWithJoy</h3>
+    <p style="text-align: center;">-you can hire four wheeler cars and jeeps for your stay in Nepal</p>
+
+    <h4 class="my-3">Please fill up the form below to hire the vehicle</h4>
+
+    <!-- Form starts here -->
+    <form>
+      <div class="form-group">
+        <label for="user">Username</label>
+        <input type="text" class="form-control" id="user" placeholder="Enter Your Username">
+        <small id="namevalid" class="form-text text-muted">
+          Your username must not start with number,and shouldn't be more than 15 characters long.
+        </small>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="invalid-feedback">
+          Please read the validation rule properly properly
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter Your Email">
+        <small id="emailvalid" class="form-text text-muted">
+          Your email must be of format: name@gmail.com
+        </small>
+        <div class="valid-feedback">
+          Good Going!
+        </div>
+        <div class="invalid-feedback">
+          Please enter the valid email address.
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" name="phone" id="phone" class="form-control" placeholder="Enter your phone number">
+        <small id="phonevalid" class="form-text text-muted">
+          Your phone number must start with 98 and should be 10 digits long
+        </small>
+        <div class="valid-feedback">
+          Almost there!
+        </div>
+        <div class="invalid-feedback">
+          Please enter the correct phone number.
+        </div>
+      </div>
+      <!-- <div class="form-group">
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address" class="form-control" placeholder="Enter your address">
+      </div> -->
+      <div class="form-group">
+        <label for="vehicle">Select the wheeler which you want to hire</label>
+        <select class="form-control" id="vehicle">
+          <option>Tata Sumo</option>
+          <option>Eco-Sport</option>
+          <option>Isuzu </option>
+          <option>Toyota</option>
+          <option>Mercedes</option>
+          <option>Mustang</option>
+          <option>Swift</option>
+          <option>Hilux</option>
+        </select>
+      </div>
+    </form>
+    <button class="btn btn-success" id="submit" style="display: block; margin:5px auto;">Submit</button>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
